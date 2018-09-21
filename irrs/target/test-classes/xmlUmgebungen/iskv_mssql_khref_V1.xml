@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>iskv_mssql_khref_V1</id>
+    <produkt>KOLUMBUS ISKV</produkt>
+    <name>ISKV MSSQL KHREF</name>
+    <port>23280</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/iskv_mssql_khref/</clientPfad>
+    <serverName>iskv_mssql_khref_V1</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von rno&lt;br/&gt;2018-02-22 17:54:14.41</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/iskv_mssql_khref_V1/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/iskv_mssql_khref_V1/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/iskv_mssql_khref_V1/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

@@ -1,0 +1,259 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.innovas.km.testsystem.irrs</groupId>
+	<artifactId>${application.directory.name}</artifactId>
+	<packaging>war</packaging>
+	<version>1.0-SNAPSHOT</version>
+
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<application.directory.name>irrs</application.directory.name>
+	</properties>
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.10.19</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- logging -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.11.0</version>
+		</dependency>
+
+		<!-- EE7 -->
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- jaxb -->
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.3.0</version>
+		</dependency>
+
+		<!-- JSH ssl console -->
+		<dependency>
+			<groupId>com.jcraft</groupId>
+			<artifactId>jsch</artifactId>
+			<version>0.1.54</version>
+		</dependency>
+
+		<!-- UI Primefaces -->
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>6.2</version>
+		</dependency>
+
+
+	</dependencies>
+
+	<build>
+
+		<finalName>${application.directory.name}</finalName>
+
+
+		<plugins>
+			<!-- compiler version -->
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+					<useIncrementalCompilation>false</useIncrementalCompilation>
+				</configuration>
+			</plugin>
+
+		
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<id>copy-resources</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${basedir}/target/${application.directory.name}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>resources</directory>
+									<filtering>true</filtering>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin> 
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy-dependencies</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}/${application.directory.name}/lib</outputDirectory>
+							<overWriteReleases>false</overWriteReleases>
+							<overWriteSnapshots>false</overWriteSnapshots>
+							<overWriteIfNewer>true</overWriteIfNewer>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.8</version>
+				<executions>
+					<execution>
+						<id>prepare</id>
+						<phase>${deploy.phase}</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target>
+								<echo message="starte irrs appserver" />
+								<sshexec host="innolectus.innovas.de" trust="yes"
+									username="${username}" password="${password}"
+									command="${deploy.command}" />
+							</target>
+						</configuration>
+					</execution>
+				</executions>
+				<dependencies>
+					<dependency>
+						<groupId>ant</groupId>
+						<artifactId>ant-jsch</artifactId>
+						<version>1.6.5</version>
+					</dependency>
+					<dependency>
+						<groupId>com.jcraft</groupId>
+						<artifactId>jsch</artifactId>
+						<version>0.1.54</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+
+			<plugin>
+				<groupId>org.wildfly.plugins</groupId>
+				<artifactId>wildfly-maven-plugin</artifactId>
+				<version>1.2.2.Final</version>
+				<executions>
+					<execution>
+						<phase>${deploy.phase}</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<hostname>${appserver.host}</hostname>
+					<port>${appserver.port}</port>
+					<username>${appserver.management.user}</username>
+					<password>${appserver.management.user.password}</password>
+					<name>${deployment.war.name}</name>
+				</configuration>
+			</plugin>
+
+
+		</plugins>
+
+	</build>
+
+	<profiles>
+		<profile>
+			<id>deploy</id>
+			<activation>
+				<property>
+					<name>activate</name>
+					<value>deploy</value>
+				</property>
+			</activation>
+			<properties>
+				<deploy.phase>install</deploy.phase>
+				<username>inno</username>
+				<password>
+        			<![CDATA[Qno2+j(tJM5<vOVE]]>
+				</password>
+				<deploy.command>
+        			<![CDATA[/data/r-pe-k/irrs/bin/start.sh > /dev/null 2>&1]]>
+				</deploy.command>
+			</properties>
+		</profile>
+
+
+		<profile>
+			<id>env.development</id>
+			<properties>
+				<appserver.host>innolectus.innovas.de</appserver.host>
+				<appserver.port>1290</appserver.port>
+				<appserver.management.user>admin</appserver.management.user>
+				<appserver.management.user.password>admin</appserver.management.user.password>
+				<deployment.war.name>irrs.war</deployment.war.name>
+			</properties>		
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>	
+		</profile>
+		<profile>
+			<id>env.production</id>
+			<properties>
+				<appserver.host>innolectus.innovas.de</appserver.host>
+				<appserver.port>1190</appserver.port>
+				<appserver.management.user>admin</appserver.management.user>
+				<appserver.management.user.password>admin</appserver.management.user.password>
+				<deployment.war.name>irrs.war</deployment.war.name>
+			</properties>			
+		</profile>
+
+
+	</profiles>
+
+</project>

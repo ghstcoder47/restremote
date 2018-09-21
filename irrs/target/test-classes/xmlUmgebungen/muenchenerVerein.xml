@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>muenchenerVerein</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>MUENCHENER VEREIN</name>
+    <port>63080</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/MUENCHENER_VEREIN/</clientPfad>
+    <serverName>muenchenerVerein</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS7LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von janasd&lt;br/&gt;2018-05-25 12:39:17.137</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/muenchenerVerein/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/muenchenerVerein/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/muenchenerVerein/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

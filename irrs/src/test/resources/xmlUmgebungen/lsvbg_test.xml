@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>lsvbg_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>SVLFG_BG</name>
+    <port>12980</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/SVLFG_BG/</clientPfad>
+    <serverName>lsvbg_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE85LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von janasd&lt;br/&gt;2018-03-28 13:40:35.28</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/lsvbg/test/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was8.5nd/AppServer/profiles/kolumbusNode/bin/startServer.sh lsvbg_test</startSkript>
+    <stopSkript>/data/was/was8.5nd/AppServer/profiles/kolumbusNode/bin/stopServer.sh lsvbg_test</stopSkript>
+    <datenbank/>
+</umgebung>

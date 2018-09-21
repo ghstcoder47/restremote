@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>ruv_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>RUV</name>
+    <beschreibung></beschreibung>
+    <port>60180</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>KOLUMBUS_DRG_Connect/RUV/</clientPfad>
+    <serverName>ruv_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von seideld&lt;br/&gt;2018-05-24 09:26:49.898</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/ruv_test/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/ruv_test/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/ruv_test/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

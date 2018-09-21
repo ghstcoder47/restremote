@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>demo_PKV_4</id>
+    <produkt>KOLUMBUS DEMO</produkt>
+    <name>Demo_2018.2.00</name>
+    <beschreibung></beschreibung>
+    <port>64080</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/Demo_2018.2.00/</clientPfad>
+    <serverName>demo_PKV_4</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von aan&lt;br/&gt;2018-06-21 09:28:22.665</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/demo_test4/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/demo_PKV_4/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/demo_PKV_4/bin/stop.sh</stopSkript>
+    <clientStartDatei>run.bat</clientStartDatei>
+    <clientCleanUpOrdner>lib</clientCleanUpOrdner>
+    <datenbank>
+        <value>Datenbank:</value>
+        <value>Host: p2-136ubu      Port: 50000</value>
+        <value>Name: ws_tes3</value>
+        <value>Nutzer1: drguser      Passwort1: drguser</value>
+        <value>Skriptart: v_udb        Version: 2017.2.00</value>
+    </datenbank>
+</umgebung>

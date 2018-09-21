@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>demo_pe1</id>
+    <produkt>KOLUMBUS PE</produkt>
+    <name>DEMO PE1 PLUTO</name>
+    <beschreibung>Demo Version für agiles Team PLUTO</beschreibung>
+    <port>64680</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/demo_pe1/</clientPfad>
+    <serverName>demo_pe1</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von tpa&lt;br/&gt;2018-06-18 10:05:34.378</letzteAktionInfo>
+    <logging>true</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/demo_pe1/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/demo_pe1/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/demo_pe1/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

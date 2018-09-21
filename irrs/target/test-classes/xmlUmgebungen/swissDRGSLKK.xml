@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>swissDRGSLKK</id>
+    <produkt>KOLUMBUS SWISS</produkt>
+    <name>SLKK WF10</name>
+    <port>18580</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>SwissDRG/SLKK/</clientPfad>
+    <serverName>swissDRGSLKK</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <logging>false</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/swissDRG/slkk/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/swissDRG_at_wf101/slkk/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/swissDRG_at_wf101/slkk/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>regelwerk_mgmnt</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>Regeladm_DB</name>
+    <port>33480</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/Regeladm_DB/</clientPfad>
+    <serverName>regelwerk_mgmnt</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE7LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von mgu&lt;br/&gt;2018-06-15 10:22:57.421</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/regelwerk_mgmnt/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/startServer.sh regelwerk_mgmnt</startSkript>
+    <stopSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/stopServer.sh regelwerk_mgmnt</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

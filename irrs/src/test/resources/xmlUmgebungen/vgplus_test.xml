@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>vgplus_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>VGPlus</name>
+    <beschreibung></beschreibung>
+    <port>64280</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/UV/VG_PLUS/</clientPfad>
+    <serverName>vgplus_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS7LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von janasd&lt;br/&gt;2018-02-22 14:38:14.275</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/vgplus_test/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/vgplus_test/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>rest_test</id>
+    <produkt>KOLUMBUS DEMO</produkt>
+    <name>rest_test</name>
+    <beschreibung></beschreibung>
+    <port></port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad></clientPfad>
+    <serverName>rest_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS120WFLIN13K</applicationServerInstanz>
+    <logging>false</logging>
+    <urlAttachment></urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript></startSkript>
+    <stopSkript></stopSkript>
+    <clientStartDatei>run.bat</clientStartDatei>
+    <clientCleanUpOrdner>lib</clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

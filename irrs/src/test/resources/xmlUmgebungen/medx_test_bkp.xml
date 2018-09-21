@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>medx_test_bkp</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>MEDX DNU</name>
+    <beschreibung></beschreibung>
+    <port>40380</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/MEDX/</clientPfad>
+    <serverName>medx_test_bkp</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS8WILDFLYLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von rno&lt;br/&gt;2018-01-31 08:53:16.231</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/medx_test/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/medx_test/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/medx_test/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

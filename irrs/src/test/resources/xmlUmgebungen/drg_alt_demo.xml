@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>drg_alt_demo</id>
+    <produkt>KOLUMBUS DEMO</produkt>
+    <name>Demo_2016.1.01 WAS</name>
+    <port>33880</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/DemoWAS/Demo_2016.1.01/</clientPfad>
+    <serverName>drg_alt_demo</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE7LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von scherdif&lt;br/&gt;2018-02-27 08:04:55.803</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/drg_alt_demo/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/startServer.sh drg_alt_demo</startSkript>
+    <stopSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/stopServer.sh drg_alt_demo</stopSkript>
+    <datenbank/>
+</umgebung>

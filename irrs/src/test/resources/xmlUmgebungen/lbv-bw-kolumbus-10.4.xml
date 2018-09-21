@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>lbv-bw-kolumbus-10.4</id>
+    <produkt>PROJEKTE</produkt>
+    <name>LBV BW - Workflow 10.4</name>
+    <port>20580</port>
+    <webClientURL>http://k-app-proj-3.innovas.de:20480/lbv_bw_web/iaf/xhtml/jbit-frameset.xhtml</webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad></clientPfad>
+    <serverName>lbv-bw-kolumbus-10.4</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS10WILDFLYPROJ3</applicationServerInstanz>
+    <logging>false</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/inno_am/appsrv/jboss/100wf/bin/startServer.sh lbv-bw-kolumbus-10.4</startSkript>
+    <stopSkript>/data/inno_am/appsrv/jboss/100wf/bin/stopServer.sh lbv-bw-kolumbus-10.4</stopSkript>
+    <datenbank/>
+</umgebung>

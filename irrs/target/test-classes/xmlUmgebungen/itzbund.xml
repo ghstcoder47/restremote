@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>itzbund</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>ITZBund</name>
+    <beschreibung></beschreibung>
+    <port>12680</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/ITZBund/</clientPfad>
+    <serverName>itzbund</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE85LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von ali&lt;br/&gt;2018-01-15 13:14:14.373</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/was/was8.5nd/AppServer/profiles/AppSrv01/bin/startServer.sh itzbund_test</startSkript>
+    <stopSkript>/data/was/was8.5nd/AppServer/profiles/AppSrv01/bin/stopServer.sh itzbund_</stopSkript>
+    <datenbank>
+        <value>Anmeldedaten: admin/admin</value>
+    </datenbank>
+</umgebung>

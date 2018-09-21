@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>service_pkv</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>DRG_Service_PKV</name>
+    <port>61880</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/DRG_Service_PKV/</clientPfad>
+    <serverName>service_pkv</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS7LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von tpa&lt;br/&gt;2018-06-21 10:20:16.58</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/service_pkv/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/service_pkv/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/service_pkv/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

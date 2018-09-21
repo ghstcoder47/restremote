@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>swiss_kol_analyse</id>
+    <produkt>KOLUMBUS SWISS</produkt>
+    <name>KOLUMBUS SwissDRG Analyse</name>
+    <beschreibung></beschreibung>
+    <port></port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>SwissDRG_Analyse/KOLUMBUS SwissDRG Analyse/</clientPfad>
+    <serverName></serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz></applicationServerInstanz>
+    <logging>false</logging>
+    <urlAttachment></urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript></startSkript>
+    <stopSkript></stopSkript>
+    <clientStartDatei>Analyse.bat</clientStartDatei>
+    <clientCleanUpOrdner>lib</clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

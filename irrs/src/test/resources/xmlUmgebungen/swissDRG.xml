@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>swissDRG</id>
+    <produkt>KOLUMBUS SWISS</produkt>
+    <name>Demo Head</name>
+    <port>60280</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>SwissDRG/Demo_Head/</clientPfad>
+    <serverName>swissDRG</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS7LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von inno&lt;br/&gt;2018-06-21 10:01:25.94</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/swissDRG/demo_head/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/swissDRG/demo_head/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/swissDRG/demo_head/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

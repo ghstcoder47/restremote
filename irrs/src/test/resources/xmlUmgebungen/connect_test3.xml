@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>connect_test3</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>CONNECT_DEMO</name>
+    <port>39380</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>KOLUMBUS_DRG_Connect/CONNECT_DEMO/</clientPfad>
+    <serverName>connect_test3</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE7LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von SMa&lt;br/&gt;2018-05-18 07:35:08.157</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/connect_test3/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was7.0nd/AppServer/profiles/connectNode/bin/startServer.sh connect_test3</startSkript>
+    <stopSkript>/data/was/was7.0nd/AppServer/profiles/connectNode/bin/stopServer.sh connect_test3</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank>
+        <value>Username = admin / ohne pwd</value>
+        <value>Datenbank = drg_pe mit con_test /con_test</value>
+    </datenbank>
+</umgebung>

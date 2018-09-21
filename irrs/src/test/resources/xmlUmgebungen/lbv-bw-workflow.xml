@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>lbv-bw-workflow</id>
+    <produkt>PROJEKTE</produkt>
+    <name>LBV BW - Workflow trunk</name>
+    <port>20180</port>
+    <webClientURL>http://k-app-proj-3.innovas.de:20180/lbv_bw_web/iaf/xhtml/jbit-frameset.xhtml</webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad></clientPfad>
+    <serverName>lbv-bw-workflow</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WILDFLY10DOMAINPROJ3</applicationServerInstanz>
+    <logging>false</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/inno_pi/Applikationsserver/wildfly-10.0.0.Final/bin/jboss-cli.sh --connect controller=k-app-proj-3:20010 /host=master/server-config=lbv-bw-workflow:start</startSkript>
+    <stopSkript>/data/inno_pi/Applikationsserver/wildfly-10.0.0.Final/bin/jboss-cli.sh --connect controller=k-app-proj-3:20010 /host=master/server-config=lbv-bw-workflow:stop</stopSkript>
+    <datenbank/>
+</umgebung>

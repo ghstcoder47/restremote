@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>swissDRGTarpsy</id>
+    <produkt>KOLUMBUS SWISS</produkt>
+    <name>Tarpsy</name>
+    <beschreibung></beschreibung>
+    <port>45280</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>SwissDRG/Tarpsy/</clientPfad>
+    <serverName>swissDRGTarpsy</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von michelbi&lt;br/&gt;2018-06-19 16:40:37.996</letzteAktionInfo>
+    <logging>true</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/swissDRG_at_wf101/swissDRGTarpsy/logs/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/swissDRG_at_wf101/swissDRGTarpsy/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/swissDRG_at_wf101/swissDRGTarpsy/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

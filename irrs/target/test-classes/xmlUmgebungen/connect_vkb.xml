@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>connect_vkb</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>VKB connect</name>
+    <beschreibung></beschreibung>
+    <port>39580</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>KOLUMBUS_DRG_Connect/VKB/</clientPfad>
+    <serverName>connect_vkb</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE7LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von seideld&lt;br/&gt;2017-12-21 11:32:45.733</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/connect_vkb/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was7.0nd/AppServer/profiles/connectNode/bin/startServer.sh connect_vkb</startSkript>
+    <stopSkript>/data/was/was7.0nd/AppServer/profiles/connectNode/bin/stopServer.sh connect_vkb</stopSkript>
+    <datenbank/>
+</umgebung>

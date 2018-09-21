@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>ves_test5</id>
+    <produkt>VESPUCCI</produkt>
+    <name>ves_test5</name>
+    <beschreibung></beschreibung>
+    <port>60380</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>Vespucci_PZN_Connect/ves_test5/</clientPfad>
+    <serverName>ves_test5</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS110WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von michelbi&lt;br/&gt;2018-04-10 16:23:50.73</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/vespucci/ves_test5/logs/server.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/vespucci/ves_test5/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/vespucci/ves_test5/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

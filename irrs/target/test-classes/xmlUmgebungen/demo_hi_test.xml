@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>demo_hi_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>DEMOHI J6</name>
+    <beschreibung></beschreibung>
+    <port>65480</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/DEMOHI_J6/</clientPfad>
+    <serverName>demo_hi_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSSREDHAT64LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von aan&lt;br/&gt;2018-06-21 10:05:48.295</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/jboss_eap64/demo_hi_test/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/jboss_eap64/demo_hi_test/bin/stop.sh</stopSkript>
+    <clientStartDatei>run.bat</clientStartDatei>
+    <clientCleanUpOrdner>lib</clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

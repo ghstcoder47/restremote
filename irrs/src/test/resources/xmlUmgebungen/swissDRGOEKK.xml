@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>swissDRGOEKK</id>
+    <produkt>KOLUMBUS SWISS</produkt>
+    <name>OEKK WF10</name>
+    <port>18180</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>SwissDRG/OEKK/</clientPfad>
+    <serverName>swissDRGOEKK</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von fme&lt;br/&gt;2018-06-22 09:40:08.753</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/swissDRG_at_wf101/oekk/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/swissDRG_at_wf101/oekk/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

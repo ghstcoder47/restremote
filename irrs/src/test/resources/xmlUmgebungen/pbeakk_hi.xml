@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>pbeakk_hi</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>PBEAKK_HI</name>
+    <beschreibung></beschreibung>
+    <port>21080</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/PBeaKK_HI/</clientPfad>
+    <serverName>pbeakk_hi</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSSREDHAT64LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von aan&lt;br/&gt;2018-06-21 10:50:54.822</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/jboss_eap64/pbeakk_hi/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/jboss_eap64/pbeakk_hi/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

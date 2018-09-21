@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>iskv_mssql_1</id>
+    <produkt>KOLUMBUS ISKV</produkt>
+    <name>ISKV MSSQL 2018.2.01</name>
+    <beschreibung></beschreibung>
+    <port>22980</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/iskv_mssql_2018.2.01/</clientPfad>
+    <serverName>iskv_mssql_1</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von janasd&lt;br/&gt;2018-05-22 12:35:22.103</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/iskv_mssql_1/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/iskv_mssql_1/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/iskv_mssql_1/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank>
+        <value>Datenbank:</value>
+        <value>Host: k-db-sql-1\sql2008_pe    Port: 1433</value>
+        <value>Name: iskv_21c_mf_current_fix</value>
+        <value>Nutzer1: system_pe  Passwort1: Bla1234</value>
+        <value>Skriptart: t_mssql_mare_mf</value>
+        <value>Skript Version: 2017.2.00</value>
+    </datenbank>
+</umgebung>

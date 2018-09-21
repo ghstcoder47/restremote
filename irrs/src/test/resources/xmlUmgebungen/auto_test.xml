@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>auto_test</id>
+    <produkt>KOLUMBUS TA</produkt>
+    <name>Testautomatisierung (1)</name>
+    <port>62280</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/Testautomatisierung/auto_test/</clientPfad>
+    <serverName>auto_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS7LIN13K</applicationServerInstanz>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/auto_test/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/auto_test/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/auto_test/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

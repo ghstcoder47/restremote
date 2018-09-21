@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>iskv_db2_IKK_CLASSIC</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>IKK CLASSIC</name>
+    <beschreibung></beschreibung>
+    <port>64880</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/IKK_CLASSIC/</clientPfad>
+    <serverName>iskv_db2_IKK_CLASSIC</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS110WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von ali&lt;br/&gt;2018-06-21 09:18:56.409</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/iskv_db2_IKK_CLASSIC/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/iskv_db2_IKK_CLASSIC/bin/stop.sh</stopSkript>
+    <clientStartDatei>run.bat</clientStartDatei>
+    <clientCleanUpOrdner>lib</clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

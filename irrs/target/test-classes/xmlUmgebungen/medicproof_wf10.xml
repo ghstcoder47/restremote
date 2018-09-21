@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>medicproof_wf10</id>
+    <produkt>PROJEKTE</produkt>
+    <name>Medicproof</name>
+    <beschreibung></beschreibung>
+    <port>63180</port>
+    <webClientURL>https://lin13-k.innovas.de:63143/proofClientWebApp/login</webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad></clientPfad>
+    <serverName>medicproof_wf10</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von aeh&lt;br/&gt;2018-05-23 10:17:10.507</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment></urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/projekte/medicproof_wf10/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/projekte/medicproof_wf10/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/projekte/medicproof_wf10/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

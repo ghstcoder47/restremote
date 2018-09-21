@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>central_test_pi</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>Central PI</name>
+    <beschreibung></beschreibung>
+    <port>18880</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/central_pi/</clientPfad>
+    <serverName>central_test_pi</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von jre&lt;br/&gt;2018-06-14 09:24:14.989</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/central_test_pi/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/central_test_pi/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank>
+        <value>admin - pwd</value>
+    </datenbank>
+</umgebung>

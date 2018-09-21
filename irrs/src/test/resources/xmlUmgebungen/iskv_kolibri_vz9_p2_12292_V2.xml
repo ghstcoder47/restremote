@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>iskv_kolibri_vz9_p2_12292_V2</id>
+    <produkt>KOLUMBUS ISKV</produkt>
+    <name>kolibri p2 12292 V2 2017.3 23.75</name>
+    <beschreibung></beschreibung>
+    <port>23004</port>
+    <webClientURL>lin13-k:23004</webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad></clientPfad>
+    <serverName></serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>KOLIBRI</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von sjs&lt;br/&gt;2018-06-15 07:50:07.635</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/iskv_kolibri_vz9_p2_12292_V2/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/iskv_kolibri_vz9_p2_12292_V2/stop.sh</stopSkript>
+    <clientStartDatei>run.bat</clientStartDatei>
+    <clientCleanUpOrdner>lib</clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

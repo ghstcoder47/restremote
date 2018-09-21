@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>continentale_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>CONTINENTALE</name>
+    <port>33680</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/CONTINENTALE/</clientPfad>
+    <serverName>continentale_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE7LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von seideld&lt;br/&gt;2018-05-25 08:25:52.645</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/continentale_test/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/startServer.sh continentale_test</startSkript>
+    <stopSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/stopServer.sh continentale_test</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

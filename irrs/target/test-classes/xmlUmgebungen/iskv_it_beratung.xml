@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>iskv_it_beratung</id>
+    <produkt>IT BERATUNG</produkt>
+    <name>iskv_it_beratung</name>
+    <beschreibung></beschreibung>
+    <port>63880</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/IT_BERATUNG/ISKV/</clientPfad>
+    <serverName>iskv_it_beratung</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS110WILDFLYPROJ3</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von janasd&lt;br/&gt;2018-04-23 09:55:08.093</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment></urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/inno_am/testfeld/drg/iskv_it_beratung/bin/start.sh</startSkript>
+    <stopSkript>/data/inno_am/testfeld/drg/iskv_it_beratung/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

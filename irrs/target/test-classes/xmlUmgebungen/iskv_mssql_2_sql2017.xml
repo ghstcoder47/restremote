@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>iskv_mssql_2_sql2017</id>
+    <produkt>KOLUMBUS ISKV</produkt>
+    <name>ISKV MSSQL sql2017 2018.3.00</name>
+    <beschreibung></beschreibung>
+    <port>30280</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/iskv_mssql_sql2017_2018.3.00/</clientPfad>
+    <serverName>iskv_mssql_2_sql2017</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS120WFLIN13K</applicationServerInstanz>
+    <logging>true</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/iskv_mssql_2_sql2017/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/iskv_mssql_2_sql2017/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/iskv_mssql_2_sql2017/bin/stop.sh</stopSkript>
+    <clientStartDatei>lib</clientStartDatei>
+    <clientCleanUpOrdner>lib</clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

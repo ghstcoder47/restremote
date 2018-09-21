@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>demo_pe2</id>
+    <produkt>KOLUMBUS PE</produkt>
+    <name>DEMO PE2 TITAN</name>
+    <beschreibung>Demo Version für agiles Team TITAN</beschreibung>
+    <port>64780</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/demo_pe2/</clientPfad>
+    <serverName>demo_pe2</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von jre&lt;br/&gt;2018-06-15 14:50:42.204</letzteAktionInfo>
+    <logging>true</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/demo_pe2/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/demo_pe2/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/demo_pe2/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>swissDRGOEKK_JB7</id>
+    <produkt>KOLUMBUS SWISS</produkt>
+    <name>OEKK</name>
+    <port>62680</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>SwissDRG/OEKK/</clientPfad>
+    <serverName>swissDRGOEKK</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS7LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von inno&lt;br/&gt;2018-06-22 10:05:27.158</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/swissDRG/oekk/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/swissDRG/oekk/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

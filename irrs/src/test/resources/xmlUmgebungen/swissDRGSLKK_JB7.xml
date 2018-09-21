@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>swissDRGSLKK_JB7</id>
+    <produkt>KOLUMBUS SWISS</produkt>
+    <name>SLKK</name>
+    <port>62580</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>SwissDRG/SLKK/</clientPfad>
+    <serverName>swissDRGSLKK</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS7LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von fme&lt;br/&gt;2018-03-09 13:48:16.746</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/swissDRG/slkk/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/swissDRG/slkk/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

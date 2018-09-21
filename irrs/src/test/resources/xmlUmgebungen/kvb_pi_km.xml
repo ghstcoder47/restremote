@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>kvb_pi_km</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>KVB PI KM</name>
+    <beschreibung></beschreibung>
+    <port>45180</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/KVB_PI_KM/</clientPfad>
+    <serverName>kvb_pi_km</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von jre&lt;br/&gt;2018-06-19 07:48:36.017</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/kvb_pi_km/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/kvb_pi_km/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

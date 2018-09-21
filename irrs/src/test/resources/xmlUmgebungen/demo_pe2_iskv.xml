@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>demo_pe2_iskv</id>
+    <produkt>KOLUMBUS PE</produkt>
+    <name>DEMO PE2 ISKV TITAN</name>
+    <beschreibung>Demo Version für agiles Team TITAN</beschreibung>
+    <port>61380</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/demo_pe2_iskv/</clientPfad>
+    <serverName>demo_pe2_iskv</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS101WFLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von gso&lt;br/&gt;2018-06-21 10:12:21.804</letzteAktionInfo>
+    <logging>true</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/demo_pe2_iskv/logs/trase.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/demo_pe2_iskv/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/demo_pe2_iskv/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>mek_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>MECKLENBURGISCHE</name>
+    <port>21780</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/MECKLENBURGISCHE/</clientPfad>
+    <serverName>mek_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS5LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von kocht&lt;br/&gt;2018-05-15 09:27:04.816</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/mek_test/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/mek_test/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/mek_test/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

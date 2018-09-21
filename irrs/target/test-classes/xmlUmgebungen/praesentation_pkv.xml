@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>praesentation_pkv</id>
+    <produkt>PRÄSENTATION</produkt>
+    <name>Praesentation PKV</name>
+    <beschreibung>ACHTUNG: OFFIZIELLE PRÄSENTATIONSUMGEBUNG FÜR KUNDEN</beschreibung>
+    <port>63680</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Praesentation/praesentation_pkv/</clientPfad>
+    <serverName>praesentation_pkv</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS10WILDFLYPROJ3</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von msc&lt;br/&gt;2018-03-06 13:27:53.326</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/praesentation_pkv/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/praesentation_pkv/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

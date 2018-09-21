@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>wurttembergische_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>WURTTEMBERGISCHE</name>
+    <port>11980</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/WURTTEMBERGISCHE/</clientPfad>
+    <serverName>wurttembergische_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE85LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von seideld&lt;br/&gt;2018-05-16 09:03:07.016</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/wurttembergische/test85/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was8.5nd/AppServer/profiles/AppSrv01/bin/startServer.sh wurttembergische_test</startSkript>
+    <stopSkript>/data/was/was8.5nd/AppServer/profiles/AppSrv01/bin/stopServer.sh wurttembergische_test -user service.was8 -password W6kFuHcV?o</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

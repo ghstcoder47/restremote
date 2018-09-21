@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>pkv_it_beratung</id>
+    <produkt>IT BERATUNG</produkt>
+    <name>pkv_it_beratung</name>
+    <beschreibung></beschreibung>
+    <port>63780</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/IT_BERATUNG/PKV/</clientPfad>
+    <serverName>pkv_it_beratung</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS110WILDFLYPROJ3</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von janasd&lt;br/&gt;2018-04-23 09:55:10.455</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment></urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/inno_am/testfeld/drg/pkv_it_beratung/bin/start.sh</startSkript>
+    <stopSkript>/data/inno_am/testfeld/drg/pkv_it_beratung/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

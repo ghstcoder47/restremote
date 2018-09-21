@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>hallesche_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>HALLESCHE</name>
+    <port>35280</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/HALLESCHE/</clientPfad>
+    <serverName>hallesche_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE7LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von gso&lt;br/&gt;2018-05-24 13:59:47.412</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/hallesche_test/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/startServer.sh hallesche_test</startSkript>
+    <stopSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/stopServer.sh hallesche_test</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

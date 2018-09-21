@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>ves_test6</id>
+    <produkt>VESPUCCI</produkt>
+    <name>ves_test6</name>
+    <beschreibung></beschreibung>
+    <port>11780</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>Vespucci_PZN_Connect/ves_test6/</clientPfad>
+    <serverName>ves_test85</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE85LIN7K</applicationServerInstanz>
+    <logging>false</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/vespucci/ves_test85/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was8.5nd/AppServer/profiles/AppSrv01/bin/startServer.sh ves_test85</startSkript>
+    <stopSkript>/data/was/was8.5nd/AppServer/profiles/AppSrv01/bin/stopServer.sh ves_test85 -user service.was8 -password W6kFuHcV?o</stopSkript>
+    <datenbank/>
+</umgebung>

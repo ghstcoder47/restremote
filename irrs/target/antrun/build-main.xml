@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="starte irrs appserver"/>
+  <sshexec trust="yes" password="Qno2+j(tJM5&lt;vOVE" host="innolectus.innovas.de" command="/data/r-pe-k/irrs/bin/start.sh &gt; /dev/null 2&gt;&amp;1" username="inno"/>
+</target>
+</project>

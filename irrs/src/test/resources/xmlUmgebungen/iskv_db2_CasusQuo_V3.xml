@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>iskv_db2_CasusQuo_V3</id>
+    <produkt>KOLUMBUS ISKV</produkt>
+    <name>ISKV DB2 CasusQuo 2018.2.00</name>
+    <beschreibung></beschreibung>
+    <port>61980</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/iskv_db2_CasusQuo_2018.2.00/</clientPfad>
+    <serverName>iskv_db2_CasusQuo_V3</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS10WILDFLYLIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von seideld&lt;br/&gt;2018-06-07 09:11:00.463</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/iskv_db2_CasusQuo_V3/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/iskv_db2_CasusQuo_V3/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/iskv_db2_CasusQuo_V3/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank>
+        <value>Datenbank:</value>
+        <value>Host: Lin11-k</value>
+        <value>Name: casq_v3</value>
+        <value>Nutzer1: iskv_v1     Passwort1: iskv_v1</value>
+        <value>Nutzer2: iskv_v2     Passwort2: iskv_v2</value>
+        <value>Nutzer3: inno          Passwort3: Bla1234</value>
+    </datenbank>
+</umgebung>

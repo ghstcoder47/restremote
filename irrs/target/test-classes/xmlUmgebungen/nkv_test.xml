@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>nkv_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>NKV (Nürnberger)</name>
+    <beschreibung></beschreibung>
+    <port>60980</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/NKV/</clientPfad>
+    <serverName>nkv_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSSREDHAT62LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von aan&lt;br/&gt;2018-05-15 09:31:06.78</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/nkv_test/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/nkv_test/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/nkv_test/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

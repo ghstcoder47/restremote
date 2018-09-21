@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>lsv_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>SVLFG_LKK</name>
+    <port>12880</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/SVLFG_LKK/</clientPfad>
+    <serverName>lsv_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE85LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von ali&lt;br/&gt;2018-06-21 13:28:22.752</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/was/was8.5nd/AppServer/profiles/kolumbusNode/bin/startServer.sh lsv_test</startSkript>
+    <stopSkript>/data/was/was8.5nd/AppServer/profiles/kolumbusNode/bin/stopServer.sh lsv_test</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

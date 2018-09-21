@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>concordia_neu</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>CONCORDIA J6</name>
+    <beschreibung></beschreibung>
+    <port>10780</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/ConcordiaJ6/</clientPfad>
+    <serverName>concordia_neu</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE9KAPPWAS1</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von seideld&lt;br/&gt;2018-05-25 08:25:36.479</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/concordia_test/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was9.0nd/AppServer/profiles/AppSrv01/bin/startServer.sh concordia_neu</startSkript>
+    <stopSkript>/data/was/was9.0nd/AppServer/profiles/AppSrv01/bin/stopServer.sh concordia_neu</stopSkript>
+    <clientStartDatei>run.bat</clientStartDatei>
+    <clientCleanUpOrdner>lib</clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

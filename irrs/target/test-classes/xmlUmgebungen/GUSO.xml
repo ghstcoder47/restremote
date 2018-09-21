@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>GUSO</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>GUSO</name>
+    <port>40880</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/UV/GUSO/</clientPfad>
+    <serverName>GUSO</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS7LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von msc&lt;br/&gt;2018-04-10 14:10:38.68</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/GUSO/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/GUSO/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/GUSO/bin/stop.sh</stopSkript>
+    <datenbank>
+        <value>client user: tpa</value>
+        <value>db update lin12-k:</value>
+        <value>sqlplus guso_sst/drguser</value>
+    </datenbank>
+</umgebung>

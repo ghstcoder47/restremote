@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>apkv_test</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>APKV</name>
+    <beschreibung></beschreibung>
+    <port>11580</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/APKV/</clientPfad>
+    <serverName>apkv_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE85LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von seideld&lt;br/&gt;2018-05-25 08:23:45.057</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/startServer.sh apkv_test</startSkript>
+    <stopSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/stopServer.sh apkv_test</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank>
+        <value>Java version = 1.6.0</value>
+    </datenbank>
+</umgebung>

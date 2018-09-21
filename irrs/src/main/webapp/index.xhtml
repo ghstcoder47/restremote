@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+<title>IRRS</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
+
+</h:head> 
+<h:body>
+
+	<h2>IRRS</h2>
+	<p>innoLectus Remote REST Service</p>
+	<p>Remote und REST Service für die Anbindung von innoLectus an die TA und andere Systeme</p>
+
+
+	<header>
+	<h2>IRRS</h2>
+	</header>
+
+	<section> <nav>
+	<p>
+		<p:outputLabel value="Innolectus Remote:" />
+	</p>
+	<h:form>
+		<p:commandButton value="Start" action="#{index.startInnolectus}"/>
+		<p:commandButton value="Stop" action="#{index.stopInnolectus}"/>
+	</h:form>
+	</nav> <article>
+	<h1>REST- Schnittstelle</h1>
+		<p>alle Testclients auflisten</p>
+		<a href="#">http://[irrs.server:port]/irrs/resources/clients</a>
+		<p>einen Client downloaden</p>
+		<a href="#">http://[irrs.server:port]/irrs/resources/clients/{id}/download</a>
+		<p>Details über Testclient einholen</p>
+		<a href="#">http://[irrs.server:port]/irrs/resources/clients/{id}</a>
+		<p>Testclient start / stop (2* start = resourcesart)</p>		
+		<a href="#">http://[irrs.server:port]/irrs/resources/clients/{id}/remote/start}</a>
+		<p><a href="#">http://[irrs.server:port]/irrs/resources/clients/{id}/remote/stop}</a></p>
+	</article> 
+	</section>
+
+	<footer>
+	<a target="_tab" href="https://innolectus.innovas.de:1043/testsystemVerwaltung">innoLectus</a>
+	</footer>
+
+</h:body>
+
+</html>
+
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>vkb</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>VKB</name>
+    <beschreibung></beschreibung>
+    <port>52780</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/VKB/</clientPfad>
+    <serverName>vkb_drg_con</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>WEBSPHERE7LIN7K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von ali&lt;br/&gt;2017-12-20 15:50:57.685</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/vkb/kolumbus_drg_con/bin/trace.log</logDateiPfad>
+    <startSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/startServer.sh vkb_drg_con</startSkript>
+    <stopSkript>/data/was/was7.0nd/AppServer/profiles/kolumbusNode/bin/stopServer.sh vkb_drg_con</stopSkript>
+    <datenbank/>
+</umgebung>

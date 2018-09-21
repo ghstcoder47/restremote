@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>swiss_rw</id>
+    <produkt>KOLUMBUS SWISS</produkt>
+    <name>Regelwerk</name>
+    <port>61480</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>SwissDRG/Regelwerk/</clientPfad>
+    <serverName>swiss_rw</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS7LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestartet von tgr&lt;br/&gt;2018-06-19 15:19:20.351</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basis</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/swissDRG/regelwerk/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/swissDRG/regelwerk/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>

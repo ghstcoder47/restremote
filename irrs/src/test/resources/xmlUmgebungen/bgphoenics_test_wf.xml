@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>bgphoenics_test_wf</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>BGPHOENICS WFly</name>
+    <beschreibung></beschreibung>
+    <port>40580</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Test/BGPHOENICS/</clientPfad>
+    <serverName>bgphoenics_test</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSSREDHAT7LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von jre&lt;br/&gt;2018-04-26 17:26:16.119</letzteAktionInfo>
+    <logging>true</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/bgphoenics_test/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/bgphoenics_test/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/bgphoenics_test/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>iskv_db2_praesentation</id>
+    <produkt>PRÄSENTATION</produkt>
+    <name>ISKV DB2 Praesentation</name>
+    <beschreibung>ACHTUNG: OFFIZIELLE PRÄSENTATIONSUMGEBUNG FÜR KUNDEN</beschreibung>
+    <port>63580</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/Praesentation/iskv_db2_praesentation/</clientPfad>
+    <serverName>iskv_db2_praesentation</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS10WILDFLYPROJ3</applicationServerInstanz>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad></logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/iskv_db2_praesentation/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/iskv_db2_praesentation/bin/stop.sh</stopSkript>
+    <datenbank/>
+</umgebung>

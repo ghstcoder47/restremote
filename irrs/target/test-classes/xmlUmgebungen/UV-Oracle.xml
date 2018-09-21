@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<umgebung>
+    <id>UV-Oracle</id>
+    <produkt>KOLUMBUS KUNDEN</produkt>
+    <name>UV_ORACLE</name>
+    <port>61280</port>
+    <webClientURL></webClientURL>
+    <blockiert>false</blockiert>
+    <clientPfad>DRG/UV/UV_ORACLE</clientPfad>
+    <serverName>UV-Oracle</serverName>
+    <startOptions></startOptions>
+    <applicationServerInstanz>JBOSS7LIN13K</applicationServerInstanz>
+    <letzteAktionInfo>Gestoppt von janasd&lt;br/&gt;2018-05-25 12:39:53.018</letzteAktionInfo>
+    <logging>false</logging>
+    <urlAttachment>basismodul</urlAttachment>
+    <logDateiPfad>/data/innovas/testfeld/drg/UV-Oracle/bin/trace.log</logDateiPfad>
+    <startSkript>/data/innovas/testfeld/drg/UV-Oracle/bin/start.sh</startSkript>
+    <stopSkript>/data/innovas/testfeld/drg/UV-Oracle/bin/stop.sh</stopSkript>
+    <clientStartDatei></clientStartDatei>
+    <clientCleanUpOrdner></clientCleanUpOrdner>
+    <datenbank/>
+</umgebung>
