@@ -1,4 +1,0 @@
-@ECHO OFF
-
-REM mvn clean install -U -Pdeploy,env.development -DskipTests
-mvn clean install -DskipTests
